@@ -13,7 +13,7 @@ function App(){
     const inputType = 'number'
     const minValue = 5;
     // plain html for numbers would be <input type="numbers"> need to make that jsx
-    return <input style={{border: '3px solid red'}} type={inputType} min={minValue} />
+    return <input style={{border: '3px solid red'}} type={inputType} min={minValue} />;
 }
 
 //5) show component on screen
